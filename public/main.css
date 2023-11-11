@@ -3,6 +3,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+h1 {
+    font-size: 58px;
+    font-weight: 600;
+}
+
 .navbar {
     background-color: #00A9FF;
 }
@@ -15,6 +20,88 @@ body {
     color: white;
 }
 
+
+
+.first {
+    background-color: #00A9FF;
+    color: white;
+}
+
+.heading {
+    padding-top: 100px;
+}
+
+.home {
+    width: 100%;
+}
+
+.heading-words {
+    margin-top: 50px;
+}
+
+.blur-text1 {
+    font-size: 120px;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-weight: 900;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.about {
+    background-color: #00A9FF;
+}
+
+.image {
+    margin-left: -300px;
+}
+
+.card {
+    background-color: #89CFF3;
+    width: 80%;
+    height: 400px;
+    margin-top: 85px;
+    margin-left: 50px;
+    position: absolute;
+    border-radius: 100px;
+}
+
+@media only screen and (min-width:768px) and (max-width:1200px) {
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .navtabs {
+        font-size: 80%;
+        margin: auto;
+    }
+
+    .heading {
+        padding-top: 60px;
+    }
+
+    h1 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .heading-words {
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .blur-text1 {
+        font-size: 80px;
+        margin-top: 70px;
+        font-weight: 900;
+        position: absolute;
+        opacity: 0.3;
+    }
+}
+
 @media only screen and (min-width:330px) and (max-width:768px) {
     .navbar-brand {
         margin: auto;
@@ -23,5 +110,32 @@ body {
     .navtabs {
         font-size: 80%;
         margin: auto;
+    }
+
+    .heading {
+        padding-top: 60px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .heading-words {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .blur-text1 {
+        font-size: 40px;
+        margin-top: 70px;
+        font-weight: 900;
+        position: absolute;
+        opacity: 0.3;
+        margin-left: -80px;
     }
 }

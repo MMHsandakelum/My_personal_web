@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(239, 244, 244);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+    background-color: #00A9FF;
+}
+
+.navtabs {
+    font-size: 90%;
+}
+
+.nav-link {
+    color: white;
+}
+
+@media only screen and (min-width:330px) and (max-width:768px) {
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .navtabs {
+        font-size: 80%;
+        margin: auto;
+    }
+}

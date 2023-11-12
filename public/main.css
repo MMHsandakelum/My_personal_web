@@ -54,16 +54,44 @@ h1 {
 
 .image {
     margin-left: -300px;
+    height: 600px;
+    width: 600px;
 }
 
 .card {
-    background-color: #89CFF3;
-    width: 80%;
-    height: 400px;
-    margin-top: 85px;
-    margin-left: 50px;
+    background-color: #6499E9;
+    width: 70%;
+    height: 350px;
+    margin-top: 120px;
+    margin-left: 80px;
     position: absolute;
     border-radius: 100px;
+    overflow: hidden;
+}
+
+.profile {
+    width: 90%;
+    margin-left: 60px;
+    margin-top: 25px;
+    opacity: 0.9;
+
+
+}
+
+.about-des {
+    font-size: 12px;
+}
+
+.about-heading {
+    margin-top: 50px;
+}
+
+.about-me {
+    font-size: 100px;
+    font-weight: 900;
+    margin-top: -30px;
+    position: absolute;
+    opacity: 0.2;
 }
 
 @media only screen and (min-width:768px) and (max-width:1200px) {

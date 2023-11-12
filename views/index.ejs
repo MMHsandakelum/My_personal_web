@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="/main.css">
     <title>ClickMe</title>
 </head>
@@ -36,7 +37,7 @@
                 </div>
             </section>
             <section class="about">
-                <div class="container" style="display: flex; flex-direction: row;">
+                <div class="container" style="display: flex; flex-direction: row; overflow: hidden;">
                     <svg class="image" fill="#ffffff" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-66.56 -66.56 645.12 645.12"
                         xml:space="preserve" stroke="#ffffff" stroke-width="51.2">
@@ -54,10 +55,10 @@
                     </svg>
                     <div class="card about-card">
                         <div class="row">
-                            <div class="col-4 col-mg-4">
+                            <div class="col-3 col-mg-3">
                                 <img class="profile" src="/img/profile.png" alt="profile">
                             </div>
-                            <div class="col-8 col-mg-8">
+                            <div class="col-9 col-mg-9">
                                 <div class="container">
                                     <h1 class="about-me">about me</h1>
                                     <div class="about-heading">
@@ -79,61 +80,94 @@
             </section>
             <section class="services">
                 <div class="container">
-                    <h1>my <br>services</h1>
+                    <h1 class="heading-word">my <br>services</h1>
                     <div class="row">
-                        <div class="col-4">
-                            <div class="icon">
-                                <svg width="15%" fill="#ffffff" version="1.1" id="Layer_1"
-                                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-                                    viewBox="-66.56 -66.56 645.12 645.12" xml:space="preserve" stroke="#ffffff"
-                                    stroke-width="51.2">
-                                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-                                    <g id="SVGRepo_iconCarrier">
-                                        <g>
-                                            <g>
-                                                <path
-                                                    d="M256,0C114.842,0,0,114.842,0,256s114.842,256,256,256s256-114.842,256-256S397.158,0,256,0z M256,486.4 C128.751,486.4,25.6,383.249,25.6,256S128.751,25.6,256,25.6S486.4,128.751,486.4,256S383.249,486.4,256,486.4z">
-                                                </path>
-                                            </g>
-                                        </g>
-                                    </g>
-                                </svg>
-                            </div>
-                            <h2>services</h2>
-                        </div>
                         <div class="col-8">
-                            <p>My services include but are not limited to application development, web development,
-                                mobile
-                                app development, database design, API integration, software testing, and debugging</p>
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="icon">
+                                        <svg width="30%" fill="#ffffff" version="1.1" id="Layer_1"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                                            viewBox="-66.56 -66.56 645.12 645.12" xml:space="preserve" stroke="#ffffff"
+                                            stroke-width="51.2">
+                                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                                            <g id="SVGRepo_tracerCarrier" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                            </g>
+                                            <g id="SVGRepo_iconCarrier">
+                                                <g>
+                                                    <g>
+                                                        <path
+                                                            d="M256,0C114.842,0,0,114.842,0,256s114.842,256,256,256s256-114.842,256-256S397.158,0,256,0z M256,486.4 C128.751,486.4,25.6,383.249,25.6,256S128.751,25.6,256,25.6S486.4,128.751,486.4,256S383.249,486.4,256,486.4z">
+                                                        </path>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </div>
+                                    <h2 style="font-size: 300%; font-weight: 900;">services</h2>
+                                </div>
+                                <div class="col-9">
+                                    <p style="margin-top: 10%;">My services include but are not limited to application
+                                        development, web
+                                        development,
+                                        mobile
+                                        app development, database design, API integration, software testing, and
+                                        debugging
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-4">
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="" alt="">
-                            <h3>web app</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur incidunt ducimus,
-                                libero a quod vero nulla quaerat, maiores, voluptates</p>
+
+                <div class="container card-section">
+                    <div class="row"></div>
+                    <div class="card service-card">
+                        <div class="container">
+                            <div class="card-head">
+                                <i class="fa fa-desktop" style="color: #ffffff;"></i>
+                                <h3>web app</h3>
+                            </div>
+                            <p>I specialize in creating cutting-edge web applications that are user-friendly, efficient,
+                                and visually appealing. I leverage the latest technologies and
+                                best practices to build responsive, secure, and scalable web solutions that cater to
+                                your unique requirements.</p>
                         </div>
+
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="" alt="">
-                            <h3>web app</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur incidunt ducimus,
-                                libero a quod vero nulla quaerat, maiores, voluptates</p>
+                    <div class="card service-card">
+                        <div class="container">
+                            <div class="card-head">
+                                <i class="fa fa-mobile" style="color: #ffffff;"></i>
+                                <h3>mobile app</h3>
+                            </div>
+                            <p>My mobile app development service is all about turning your ideas into innovative and
+                                user-friendly mobile applications. With expertise in iOS and Android development, I
+                                create apps that engage users, solve problems, and deliver a delightful mobile
+                                experience. Whether it's a business app, a game, or a utility tool, I have the skills to
+                                design, develop, and launch mobile apps that cater to your unique needs.</p>
                         </div>
+
                     </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="" alt="">
-                            <h3>web app</h3>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur incidunt ducimus,
-                                libero a quod vero nulla quaerat, maiores, voluptates</p>
+                    <div class="card service-card">
+                        <div class="container">
+                            <div class="card-head">
+                                <i class="fa fa-cloud" style="color: #ffffff;"></i>
+                                <h3>cloud</h3>
+                            </div>
+                            <p>I specialize in solutions tailored to major cloud platforms, such as AWS, Azure, and
+                                Google Cloud, ensuring scalability, security, and cost-efficiency. Let's empower your
+                                business to leverage the benefits of the cloud, enhance flexibility, and drive digital
+                                transformation.</p>
                         </div>
+
                     </div>
+                </div>
                 </div>
             </section>
         </section>

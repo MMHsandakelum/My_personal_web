@@ -1,6 +1,7 @@
 body {
     background-color: rgb(239, 244, 244);
     font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
 }
 
 h1 {
@@ -9,7 +10,7 @@ h1 {
 }
 
 .navbar {
-    background-color: #00A9FF;
+    background-color: #0079FF;
 }
 
 .navtabs {
@@ -23,7 +24,7 @@ h1 {
 
 
 .first {
-    background-color: #00A9FF;
+    background-color: #0079FF;
     color: white;
 }
 
@@ -45,37 +46,28 @@ h1 {
     margin-left: 50px;
     font-weight: 900;
     position: absolute;
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 .about {
-    background-color: #00A9FF;
+    background-color: #0079FF;
 }
 
 .image {
-    margin-left: -300px;
+    margin-left: -200px;
     height: 600px;
     width: 600px;
 }
 
 .about-card {
-    background-color: #89CFF3;
-    width: 70%;
-    height: 50%;
-    margin-top: 120px;
-    margin-left: 80px;
-    position: absolute;
+    background-color: #30A2FF;
+    width: 80%;
+    height: max-content;
+    margin-top: 10%;
+    margin-left: -160px;
+    /* position: absolute; */
     border-radius: 100px;
     overflow: hidden;
-}
-
-.profile {
-    width: 90%;
-    margin-left: 60px;
-    margin-top: 25px;
-    opacity: 0.9;
-
-
 }
 
 .about-des {
@@ -86,18 +78,68 @@ h1 {
     margin-top: 50px;
 }
 
+.profile {
+    width: 120%;
+    margin-left: 30px;
+    margin-top: 25px;
+    opacity: 0.9;
+}
+
 .about-me {
     font-size: 100px;
     font-weight: 900;
     margin-top: -30px;
     position: absolute;
-    opacity: 0.2;
+    opacity: 0.1;
+}
+
+.heading-word {
+    margin-bottom: -20px;
+    font-size: 800%;
+    line-height: 0.8;
+    opacity: 0.1;
+}
+
+.services {
+    margin-top: 80px;
+}
+
+.card-section {
+    margin-top: 80px;
+    display: flex;
+    column-gap: 30px;
+}
+
+.service-card {
+    background-color: #30A2FF;
+    height: max-content;
+    border-radius: 50px;
+}
+
+.service-card i {
+    font-size: 300%;
+}
+
+.card-head {
+    margin: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.card-head h3 {
+    margin-top: auto;
+    font-size: 200%;
+    font-weight: 800;
+}
+
+.service-card p {
+    margin: 30px;
 }
 
 @media only screen and (min-width:1400px) and (max-width:1660px) {
     .profile {
-        width: 120%;
-        margin-left: 60px;
+        width: 150%;
+        margin-left: 30px;
         margin-top: 25px;
         opacity: 0.9;
     }
@@ -108,6 +150,7 @@ h1 {
         margin-top: -30px;
         position: absolute;
         opacity: 0.2;
+        margin-left: 50px;
     }
 
     h1 {
@@ -123,6 +166,7 @@ h1 {
 
     .about-heading {
         margin-top: 50px;
+        margin-left: 50px;
     }
 }
 

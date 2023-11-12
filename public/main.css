@@ -58,7 +58,7 @@ h1 {
     width: 600px;
 }
 
-.card {
+.about-card {
     background-color: #89CFF3;
     width: 70%;
     height: 50%;
@@ -240,7 +240,7 @@ h1 {
         opacity: 0.9;
     }
 
-    .card {
+    .about-card {
         background-color: #89CFF3;
         width: 70%;
         height: 35%;
@@ -308,7 +308,7 @@ h1 {
         opacity: 0.9;
     }
 
-    .card {
+    .about-card {
         background-color: #89CFF3;
         width: 70%;
         height: 30%;
@@ -383,7 +383,7 @@ h1 {
         opacity: 0.9;
     }
 
-    .card {
+    .about-card {
         background-color: #89CFF3;
         width: 70%;
         height: 25%;

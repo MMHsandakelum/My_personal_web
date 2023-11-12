@@ -59,9 +59,9 @@ h1 {
 }
 
 .card {
-    background-color: #6499E9;
+    background-color: #89CFF3;
     width: 70%;
-    height: 350px;
+    height: 50%;
     margin-top: 120px;
     margin-left: 80px;
     position: absolute;
@@ -94,7 +94,40 @@ h1 {
     opacity: 0.2;
 }
 
-@media only screen and (min-width:768px) and (max-width:1200px) {
+@media only screen and (min-width:1400px) and (max-width:1660px) {
+    .profile {
+        width: 120%;
+        margin-left: 60px;
+        margin-top: 25px;
+        opacity: 0.9;
+    }
+
+    .about-me {
+        font-size: 80px;
+        font-weight: 900;
+        margin-top: -30px;
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    h1 {
+        font-size: 48px;
+        font-weight: 600;
+    }
+
+    .image {
+        margin-left: -300px;
+        height: 50%;
+        width: 50%;
+    }
+
+    .about-heading {
+        margin-top: 50px;
+    }
+}
+
+
+@media only screen and (min-width:1200px) and (max-width:1400px) {
     .navbar-brand {
         margin: auto;
     }
@@ -128,9 +161,30 @@ h1 {
         position: absolute;
         opacity: 0.3;
     }
+
+    .image {
+        margin-left: -300px;
+        height: 50%;
+        width: 50%;
+    }
+
+    .about-me {
+        font-size: 60px;
+        font-weight: 900;
+        margin-top: -30px;
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    .profile {
+        width: 120%;
+        margin-left: 60px;
+        margin-top: 25px;
+        opacity: 0.9;
+    }
 }
 
-@media only screen and (min-width:330px) and (max-width:768px) {
+@media only screen and (min-width:991px) and (max-width:1200px) {
     .navbar-brand {
         margin: auto;
     }
@@ -150,12 +204,153 @@ h1 {
     }
 
     .heading-words {
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .blur-text1 {
+        font-size: 80px;
+        margin-top: 70px;
+        font-weight: 900;
+        position: absolute;
+        opacity: 0.3;
+    }
+
+    .image {
+        margin-left: -300px;
+        height: 50%;
+        width: 50%;
+    }
+
+    .about-me {
+        font-size: 60px;
+        font-weight: 900;
+        margin-top: -30px;
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    .profile {
+        width: 120%;
+        margin-left: 60px;
+        margin-top: 25px;
+        opacity: 0.9;
+    }
+
+    .card {
+        background-color: #89CFF3;
+        width: 70%;
+        height: 35%;
+        margin-top: 100px;
+        margin-left: 40px;
+        position: absolute;
+        border-radius: 100px;
+        overflow: hidden;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .navtabs {
+        font-size: 80%;
+        margin: auto;
+    }
+
+    .heading {
+        padding-top: 60px;
+    }
+
+    h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .heading-words {
+        margin-top: 40px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .blur-text1 {
+        font-size: 80px;
+        margin-top: 70px;
+        font-weight: 900;
+        position: absolute;
+        opacity: 0.3;
+    }
+
+    .image {
+        margin-left: -300px;
+        height: 50%;
+        width: 50%;
+    }
+
+    .about-me {
+        font-size: 60px;
+        font-weight: 900;
+        margin-top: -30px;
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    .profile {
+        width: 100%;
+        margin-left: 60px;
+        margin-top: 25%;
+        opacity: 0.9;
+    }
+
+    .card {
+        background-color: #89CFF3;
+        width: 70%;
+        height: 30%;
+        margin-top: 50px;
+        margin-left: -10px;
+        position: absolute;
+        border-radius: 80px;
+        overflow: hidden;
+    }
+
+    .about-heading {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (min-width:330px) and (max-width:768px) {
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .navtabs {
+        font-size: 80%;
+        margin: auto;
+    }
+
+    .heading {
+        padding-top: 60px;
+    }
+
+    h1 {
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    .heading-words {
         margin-top: 20px;
         text-align: center;
     }
 
     p {
-        font-size: 12px;
+        font-size: 40%;
     }
 
     .blur-text1 {
@@ -165,5 +360,46 @@ h1 {
         position: absolute;
         opacity: 0.3;
         margin-left: -80px;
+    }
+
+    .image {
+        margin-left: -100px;
+        height: 50%;
+        width: 50%;
+    }
+
+    .about-me {
+        font-size: 60px;
+        font-weight: 900;
+        margin-top: -30px;
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    .profile {
+        width: 110%;
+        margin-left: 60px;
+        margin-top: 30%;
+        opacity: 0.9;
+    }
+
+    .card {
+        background-color: #89CFF3;
+        width: 70%;
+        height: 25%;
+        margin-top: 30px;
+        margin-left: 70px;
+        position: absolute;
+        border-radius: 80px;
+        overflow: hidden;
+    }
+
+    .about-heading {
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .about-des {
+        font-size: 8px;
     }
 }

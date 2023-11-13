@@ -95,13 +95,13 @@ h1 {
 
 .heading-word {
     margin-bottom: -20px;
-    font-size: 800%;
+    font-size: 600%;
     line-height: 0.8;
     opacity: 0.1;
 }
 
 .services {
-    margin-top: 80px;
+    margin-top: 60px;
 }
 
 .card-section {
@@ -136,38 +136,10 @@ h1 {
     margin: 30px;
 }
 
-@media only screen and (min-width:1400px) and (max-width:1660px) {
-    .profile {
-        width: 150%;
-        margin-left: 30px;
-        margin-top: 25px;
-        opacity: 0.9;
-    }
+.service-titile {
+    font-size: 300%;
+    font-weight: 800;
 
-    .about-me {
-        font-size: 80px;
-        font-weight: 900;
-        margin-top: -30px;
-        position: absolute;
-        opacity: 0.2;
-        margin-left: 50px;
-    }
-
-    h1 {
-        font-size: 48px;
-        font-weight: 600;
-    }
-
-    .image {
-        margin-left: -300px;
-        height: 50%;
-        width: 50%;
-    }
-
-    .about-heading {
-        margin-top: 50px;
-        margin-left: 50px;
-    }
 }
 
 
@@ -222,9 +194,29 @@ h1 {
 
     .profile {
         width: 120%;
-        margin-left: 60px;
+        margin-left: 20px;
         margin-top: 25px;
         opacity: 0.9;
+    }
+
+    .service-card i {
+        font-size: 250%;
+    }
+
+    .card-head {
+        margin: 30px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .card-head h3 {
+        margin-top: auto;
+        font-size: 200%;
+        font-weight: 800;
+    }
+
+    .service-card p {
+        margin: 30px;
     }
 }
 
@@ -242,17 +234,12 @@ h1 {
         padding-top: 60px;
     }
 
-    h1 {
-        font-size: 30px;
-        font-weight: 600;
-    }
-
-    .heading-words {
-        margin-top: 40px;
-    }
-
     p {
         font-size: 12px;
+    }
+
+    h1 {
+        font-size: 250%;
     }
 
     .blur-text1 {
@@ -264,7 +251,7 @@ h1 {
     }
 
     .image {
-        margin-left: -300px;
+        margin-left: -200px;
         height: 50%;
         width: 50%;
     }
@@ -278,21 +265,40 @@ h1 {
     }
 
     .profile {
-        width: 120%;
-        margin-left: 60px;
+        width: 150%;
+        margin-left: 20px;
         margin-top: 25px;
         opacity: 0.9;
     }
 
     .about-card {
-        background-color: #89CFF3;
-        width: 70%;
+        width: 80%;
         height: 35%;
-        margin-top: 100px;
-        margin-left: 40px;
+        margin-top: 80px;
+        margin-left: 100px;
         position: absolute;
         border-radius: 100px;
         overflow: hidden;
+    }
+
+    .service-card i {
+        font-size: 250%;
+    }
+
+    .card-head {
+        margin: 30px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .card-head h3 {
+        margin-top: auto;
+        font-size: 150%;
+        font-weight: 800;
+    }
+
+    .service-card p {
+        margin: 20px;
     }
 }
 
@@ -323,6 +329,10 @@ h1 {
         font-size: 12px;
     }
 
+    .about-des {
+        font-size: 10px;
+    }
+
     .blur-text1 {
         font-size: 80px;
         margin-top: 70px;
@@ -332,7 +342,7 @@ h1 {
     }
 
     .image {
-        margin-left: -300px;
+        margin-left: -100px;
         height: 50%;
         width: 50%;
     }
@@ -346,26 +356,46 @@ h1 {
     }
 
     .profile {
-        width: 100%;
-        margin-left: 60px;
-        margin-top: 25%;
+        width: 150%;
+        margin-left: 20px;
+        margin-top: 30%;
         opacity: 0.9;
     }
 
     .about-card {
-        background-color: #89CFF3;
         width: 70%;
-        height: 30%;
-        margin-top: 50px;
-        margin-left: -10px;
+        height: 25%;
+        margin-top: 60px;
+        margin-left: 70px;
         position: absolute;
         border-radius: 80px;
         overflow: hidden;
     }
 
     .about-heading {
-        margin-top: 50px;
+        margin-top: 30px;
         margin-left: 40px;
+    }
+
+    .service-card i {
+        font-size: 150%;
+    }
+
+    .card-head {
+        margin: 30px;
+        display: flex;
+        gap: 10px;
+    }
+
+    .card-head h3 {
+        margin-top: auto;
+        font-size: 100%;
+        font-weight: 800;
+    }
+
+    .service-card p {
+        margin: 20px;
+        font-size: 10px;
     }
 }
 
@@ -413,25 +443,24 @@ h1 {
     }
 
     .about-me {
-        font-size: 60px;
+        font-size: 40px;
         font-weight: 900;
-        margin-top: -30px;
+        margin-top: -10px;
         position: absolute;
         opacity: 0.2;
     }
 
     .profile {
-        width: 110%;
-        margin-left: 60px;
+        width: 150%;
+        margin-left: 20px;
         margin-top: 30%;
         opacity: 0.9;
     }
 
     .about-card {
-        background-color: #89CFF3;
         width: 70%;
-        height: 25%;
-        margin-top: 30px;
+        height: 20%;
+        margin-top: 40px;
         margin-left: 70px;
         position: absolute;
         border-radius: 80px;
@@ -445,5 +474,176 @@ h1 {
 
     .about-des {
         font-size: 8px;
+    }
+
+    .heading-word {
+        margin-bottom: -20px;
+        font-size: 200%;
+        line-height: 0.8;
+        opacity: 0.1;
+    }
+
+    .card-section {
+        margin-top: 0px;
+
+
+    }
+
+    .service-titile {
+        font-size: 150%;
+        font-weight: 600;
+    }
+
+    .service-card i {
+        font-size: 100%;
+    }
+
+    .card-head {
+        margin: 20px;
+        display: flex;
+
+    }
+
+    .card-head h3 {
+        margin-left: -20px;
+        margin-right: 20px;
+        font-size: 50%;
+        font-weight: 800;
+    }
+
+    .service-card p {
+        margin: 10px;
+        margin-bottom: 30px;
+        font-size: 6px;
+    }
+}
+
+@media only screen and (max-width:440px) {
+
+    .navbar-brand {
+        margin: auto;
+    }
+
+    .navtabs {
+        font-size: 80%;
+        margin: auto;
+    }
+
+    .heading {
+        padding-top: 60px;
+    }
+
+    h1 {
+        font-size: 50%;
+        font-weight: 600;
+    }
+
+    .heading-words {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 40%;
+    }
+
+    .blur-text1 {
+        font-size: 40px;
+        margin-top: 70px;
+        font-weight: 900;
+        position: absolute;
+        opacity: 0.3;
+        margin-left: -80px;
+    }
+
+    .image {
+        margin-left: -100px;
+        height: 50%;
+        width: 50%;
+    }
+
+    .about-me {
+        font-size: 20px;
+        font-weight: 900;
+        margin-top: -10px;
+        position: absolute;
+        opacity: 0.2;
+    }
+
+    .profile {
+        width: 150%;
+        margin-left: 20px;
+        margin-top: 30%;
+        opacity: 0.9;
+    }
+
+    .about-card {
+        width: 80%;
+        height: 10%;
+        margin-top: 40px;
+        margin-left: 20px;
+        position: absolute;
+        border-radius: 80px;
+        overflow: hidden;
+    }
+
+    .about-heading {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    .about-des {
+        font-size: 4px;
+    }
+
+    .about-p {
+        margin-bottom: 0px;
+    }
+
+    .heading-word {
+        margin-bottom: -20px;
+        font-size: 200%;
+        line-height: 0.8;
+        opacity: 0.1;
+    }
+
+    .card-section {
+        margin-top: 0px;
+
+
+    }
+
+    .service-titile {
+        font-size: 100%;
+        font-weight: 600;
+    }
+
+    .service-card i {
+        font-size: 100%;
+    }
+
+    .card-head {
+        margin: 20px;
+        display: flex;
+
+    }
+
+    .card-head h3 {
+        margin-left: -20px;
+        margin-right: 20px;
+        font-size: 50%;
+        font-weight: 800;
+    }
+
+    .service-card p {
+        margin: 10px;
+        margin-bottom: 30px;
+        font-size: 6px;
+    }
+
+    .card-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }

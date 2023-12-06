@@ -154,24 +154,34 @@ p {
 /* Experience section */
 
 .line {
-    width: 2vw;
-    height: 80vh;
-    background-color: black;
+    width: 1vw;
+    height: 40vw;
+    background-color: rgb(209, 209, 209);
+    border-radius: 20px;
 }
 
 .circle {
     width: fit-content;
     display: flex;
     flex-direction: column;
+    margin-top: 2.5vw;
     position: absolute;
-    gap: 10px;
+    gap: 13vw;
     align-items: center;
 }
 
 .circle1 {
-    width: 5vw;
-    height: 5vw;
-    background-color: aqua;
+    width: 3vw;
+    height: 3vw;
+    background-color: #255dd6;
     border-radius: 50%;
 
+}
+
+.circle2 {
+    width: 1vw;
+    height: 1vw;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin: 1vw;
 }
